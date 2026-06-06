@@ -108,6 +108,7 @@ A curated list of Python tools, libraries, and resources for audio and music pro
 - [pretty-midi](https://github.com/craffel/pretty-midi): MIDI data handling and manipulation library
 - [pychord](https://github.com/yuma-m/pychord): Handle and transform musical chords
 - [scamp](https://github.com/MarcTheSpark/scamp): Suite for Computer-Assisted Music in Python
+- [xenharmlib](https://gitlab.com/retooth/xenharmlib): Music theory library for microtonal and non-standard tuning systems
 
 ## Playback & Services
 

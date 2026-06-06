@@ -74,6 +74,7 @@ MusPy,Toolkit for symbolic music generation,Music Theory & Composition,,https://
 pretty-midi,MIDI data handling and manipulation library,Music Theory & Composition,,https://github.com/craffel/pretty-midi
 pychord,Handle and transform musical chords,Music Theory & Composition,,https://github.com/yuma-m/pychord
 scamp,Suite for Computer-Assisted Music in Python,Music Theory & Composition,,https://github.com/MarcTheSpark/scamp
+xenharmlib,Music theory library for microtonal and non-standard tuning systems,Music Theory & Composition,,https://gitlab.com/retooth/xenharmlib
 audiostream,Audio API for streaming raw data to speakers,Playback & Services,,https://github.com/kivy/audiostream
 beets,Music library manager and MusicBrainz tagger,Playback & Services,,https://github.com/beetbox/beets
 discord.py,Python wrapper for Discord API with music streaming,Playback & Services,,https://github.com/Rapptz/discord.py
