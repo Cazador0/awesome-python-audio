@@ -1,0 +1,11 @@
+{
+  "livePreview": true,
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "Logs",
+  "attachmentFolderPath": "attachments",
+  "promptDelete": false
+}
