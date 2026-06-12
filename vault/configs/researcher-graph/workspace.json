@@ -1,0 +1,147 @@
+{
+  "main": {
+    "id": "rg-main",
+    "type": "split",
+    "children": [
+      {
+        "id": "rg-main-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "rg-graph",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "rg-queries",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "configs/researcher-graph/queries.md",
+                "mode": "preview",
+                "source": false
+              },
+              "title": "queries"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "rg-left",
+    "type": "split",
+    "children": [
+      {
+        "id": "rg-left-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "rg-files",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "title": "Files"
+            }
+          },
+          {
+            "id": "rg-search",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "title": "Search"
+            }
+          },
+          {
+            "id": "rg-tags",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "title": "Tags"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280
+  },
+  "right": {
+    "id": "rg-right",
+    "type": "split",
+    "children": [
+      {
+        "id": "rg-right-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "rg-localgraph",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Music Theory SME/_index.md",
+                "options": {
+                  "depth": 2,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true
+                }
+              },
+              "title": "Local graph"
+            }
+          },
+          {
+            "id": "rg-backlinks",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Music Theory SME/_index.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "title": "Backlinks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 340
+  },
+  "active": "rg-graph",
+  "lastOpenFiles": [
+    "configs/researcher-graph/queries.md",
+    "Music Theory SME/_index.md",
+    "Context/glossary.md"
+  ]
+}

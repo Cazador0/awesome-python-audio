@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "pc-main",
+    "type": "split",
+    "children": [
+      {
+        "id": "pc-main-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "pc-stem-session",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logs/stem-session.md",
+                "mode": "source",
+                "source": false
+              },
+              "title": "stem-session"
+            }
+          },
+          {
+            "id": "pc-daily-log",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Logs/2026-06-12.md",
+                "mode": "source",
+                "source": false
+              },
+              "title": "2026-06-12"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "pc-left",
+    "type": "split",
+    "children": [
+      {
+        "id": "pc-left-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "pc-files",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "title": "Files"
+            }
+          },
+          {
+            "id": "pc-search",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 280
+  },
+  "right": {
+    "id": "pc-right",
+    "type": "split",
+    "children": [
+      {
+        "id": "pc-right-tabs",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "pc-backlinks",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Logs/stem-session.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "title": "Backlinks for stem-session"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "pc-stem-session",
+  "lastOpenFiles": [
+    "Logs/stem-session.md",
+    "Logs/2026-06-12.md",
+    "Skills/stem-regeneration.md",
+    "Music Theory SME/stem-engineering.md"
+  ]
+}

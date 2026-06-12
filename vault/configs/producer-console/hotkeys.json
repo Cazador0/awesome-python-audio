@@ -1,0 +1,20 @@
+{
+  "daily-notes": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "L"
+    }
+  ],
+  "templates:insert-template": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "T"
+    }
+  ],
+  "backlink:open": [
+    {
+      "modifiers": ["Mod", "Shift"],
+      "key": "B"
+    }
+  ]
+}

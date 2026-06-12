@@ -1,0 +1,10 @@
+{
+  "livePreview": true,
+  "readableLineLength": true,
+  "showLineNumber": false,
+  "spellcheck": false,
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "attachments",
+  "promptDelete": true
+}
