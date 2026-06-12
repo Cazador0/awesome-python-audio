@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "scrum-master": {
+      "command": "node",
+      "args": ["../mcp-servers/src/scrum-master/dist/index.js"],
+      "env": {
+        "SCRUM_BOARD_PATH": "./.mds/scrum-board.json"
+      }
+    }
+  }
+}

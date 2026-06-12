@@ -16,8 +16,12 @@ planning documents that coordinate the other two repos.
 | [`project/SCRUM_CEREMONIES.md`](project/SCRUM_CEREMONIES.md) | Prompt-based scrum via the scrum-master MCP server |
 | [`project/DATA_STRATEGY.md`](project/DATA_STRATEGY.md) | Three data-layer strategies and the verdict |
 | [`project/PROMPT_TO_STEM.md`](project/PROMPT_TO_STEM.md) | The prompt-to-Stem research problem and engineering path |
+| [`project/RUNBOOK.md`](project/RUNBOOK.md) | End-to-end setup: engine, Redis/Valkey, app, scrum-master, vault, agent team |
 | [`vault/`](vault/) | Working Obsidian vault: Skills, Tools, Context, Memory, Logs, Music Theory SME |
 | [`vault/configs/`](vault/configs/) | Three switchable Obsidian UI layouts + `use-layout.sh` |
+| [`.lumen/`](.lumen/) | Headless agent role definitions: pipeline-agent, data-agent, ui-agent |
+| [`.claude/agents/`](.claude/agents/) | The same roles in Claude Code subagent format |
+| [`.mcp.json`](.mcp.json) | Registers the scrum-master MCP server for agent sessions in this repo |
 
 Open `vault/` in Obsidian and it works out of the box (the default `.obsidian/` is the
 **agent-ops** dashboard layout). Switch layouts with
