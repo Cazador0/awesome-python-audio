@@ -65,3 +65,34 @@ and user acceptance outcomes, per task type; every change gets an entry here.
 
 **Consequences:** zero-acceptable-candidate rounds emit `frustrated` and route to
 blocker triage instead of silently shipping worse audio.
+
+## ADR-005 — Strategy A adopted (confirmed and implemented)
+**Status:** accepted · 2026-06-12
+
+**Context:** ADR-002 chose Strategy A on paper; the user has now confirmed it and the
+sprint shipped the code, so the decision is no longer provisional.
+
+**Decision:** Redis/Valkey hot path + [[sqlite-store]] system of record + embedded
+vector store, as designed. The [[task-queue]] (Streams, consumer groups, in-memory
+fallback) and the embedded [[vector-store]] (Strategy B's store folded in, with RAPTOR
+persist/restore) are the implementations of record in `music_data_science/`.
+
+**Consequences:** the queue and vector store are now contracts, not sketches — agents
+code against [[task-queue]] and [[vector-store]], and changes to their semantics are
+new ADR entries. The RAPTOR tree survives restarts via persist/restore instead of
+re-chunking this vault.
+
+## ADR-006 — Authority scale: 1–10 in the vault, normalized at chunk time
+**Status:** accepted · 2026-06-12
+
+**Context:** vault frontmatter uses the human-friendly `authority: 1-10` scale from
+[[conventions]], but retrieval scoring expects [0,1]; the markdown chunker previously
+passed values through unchanged — a unit mismatch that over-weighted every vault note.
+
+**Decision:** the vault keeps the 1–10 scale; the chunker in `music_data_science/`
+normalizes it into [0,1] when building chunks. Note-writers keep using 1–10 and never
+pre-normalize.
+
+**Consequences:** retrieval weighting is correct without any vault migration; a
+frontmatter `authority` above 1 is treated as 1–10 and divided by 10, values already in
+[0,1] pass through. [[conventions]] stays the single source for what the numbers mean.

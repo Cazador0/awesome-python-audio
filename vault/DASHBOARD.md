@@ -51,6 +51,6 @@ SORT authority DESC, updated DESC
 
 ## Quick links
 
-- Today: [[2026-06-12]] · worksheet: [[stem-session]] · new log: [[daily-log-template]]
+- Today: [[2026-06-12]] · [[2026-06-12-sprint-2]] · worksheet: [[stem-session]] · new log: [[daily-log-template]]
 - Standards: [[Music Theory SME/_index|SME library]] · operations: [[Skills/_index|Skills]]
 - Ground truth: [[decisions]] · [[conventions]] · [[glossary]]

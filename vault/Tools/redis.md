@@ -14,7 +14,7 @@ Redis Stack (or Valkey) carries the MDS **hot path** under Strategy A of
 
 | Concern | Mechanism | Keys/streams |
 | --- | --- | --- |
-| Task queue | **Redis Streams** + consumer groups per agent role | `mds:tasks` (work), `mds:results` (engine output), `mds:dead` (poisoned tasks) |
+| Task queue | **Redis Streams** + consumer groups per agent role — see [[task-queue]] | `mds:queue:generation`, `mds:queue:evaluation`, `mds:queue:ui` |
 | Cache | plain keys with TTL | `cache:codes:{blueprint_hash}:{seed}` (audio codes), `cache:blueprint:{hash}` |
 | Hot vectors | vector index over recent candidate embeddings | `vec:candidates:*` (current sprint only) |
 | Digest fan-out | pub/sub for [[scrum-master-mcp]] piggyback digests | `mds:digest:{agent}` |

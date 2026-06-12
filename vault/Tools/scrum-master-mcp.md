@@ -10,6 +10,8 @@ Coordination layer for all MDS agents, from
 [cazador0/mcp-servers](https://github.com/cazador0/mcp-servers)
 (branch `claude/peaceful-dijkstra-m0sycf`, `src/scrum-master/`). It exists so that **no
 coding agent plays scrum master** — full rationale in `project/SCRUM_CEREMONIES.md`.
+The server is auto-registered for every agent via this repo's `.mcp.json` — no manual
+MCP setup needed.
 
 ## Tools
 
